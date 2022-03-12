@@ -61,6 +61,7 @@ We recommend working through the list of requirements above but don't expect you
 
 We also ask that you update the readme with answers to the following questions 
 
+**Question**
 1. Given more time, what other changes you would have liked to make?
 
 **Answer**
@@ -68,6 +69,7 @@ We also ask that you update the readme with answers to the following questions
 2. I would split theme/index.js for separate folders for each case (eg. folder for typography, folder for colors etc.)
 
 
+**Question**
 2. What UX or design improvements or alterations might you suggest? These can be to existing components or completely new ideas.
 
 **Answer**
