@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Badge = styled.div`
+const Badge = styled.div`
   background: ${(props) => props.theme.colors.green};
   padding: 0 ${(props) => props.theme.space.m};
   border-radius: 15px;
@@ -12,3 +12,4 @@ export const Badge = styled.div`
   }
 `;
 
+export default Badge;

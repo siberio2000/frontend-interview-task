@@ -1,9 +1,7 @@
 /* eslint-disable max-statements */
 import { add, format } from "date-fns";
 import React, { useEffect, useState } from "react";
-import { Button } from "../../components/button";
-import { Badge } from "../../components/badge";
-import RowContainer from "../../components/row-container";
+import { Badge, Button, RowContainer } from "../../components";
 import {
   AccountHeadline, AccountLabel, AccountList, AccountListItem, AccountSection, InfoText, Inset, Box, AccountListBadgeItem
 } from "./style";
