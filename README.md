@@ -61,30 +61,31 @@ We recommend working through the list of requirements above but don't expect you
 
 We also ask that you update the readme with answers to the following questions 
 
-**Question**
-Given more time, what other changes you would have liked to make?
+**Question**:
+*Given more time, what other changes you would have liked to make?*
 
 **Answer**
 
 1. I would implement a function how to calculate sincePurchasePercentage / number of years since purchase (line 42) instead of hardcoding 5 (moment.js?)
-2. I would split theme/index.js for separate folders for each case (eg. folder for typography, folder for colors etc.)
+2. I would split 'theme/index.js' for separate folders for each case (eg. folder for typography, folder for colors etc.) as project might significally grow in future
 3. API folder needs to be placed in proper folder, eg. called 'data'. Since its been requested do not make any changes in the pages/ directory I haven't touched it.
+4. Ideally 'components' folder should be more orginazed: I would make folder for each component with the files 'index.jsx' for reusable component and 'style.js' for its own style inside. This would need to be imported into 'property-details/index' as separate components.
 
 
-**Question**
-What UX or design improvements or alterations might you suggest? These can be to existing components or completely new ideas.
+**Question**:
+*What UX or design improvements or alterations might you suggest? These can be to existing components or completely new ideas.*
 
 **Answer**
 
 1. 'Edit account' button could be a bit shorter - it is way to long (mobile is good to me)
 2. 'Property details' text needs to be standing out from general text (eg. bolder, possibly with all capitalized letters). This applies to other sections with the title names (eg. Estimated value etc.)
 3. Contents needs to have more padding from main edges 
-4. Its good to implement bradcrumb for each directory for better UX
+4. Its good idea to implement bradcrumb for each directory for better UX
 5. Its would be nice to have both normal header and footer
 6. Each data on the page needs to have either question mark or tooltip with explanation of the information provided.
 7. The background for the main box could be a bit different to white (eg. slightly grey)
-8. Brown menu on mobile dissapears, which means it is required to implement it 
-9. For big amount of data, or network disruptions I would implement 'Loading...' message or lazy loading to give more info to the user
+8. Brown menu on mobile dissapears, which means it is required implementation 
+9. For big amount of data, or network disruptions I would implement 'Loading...' message or lazy loading to let user know website is up and running (just busy). If data wasn't fetched - we need to inform user.
 
 On completion, email a link to your repository to your contact at Moneyhub, and ensure it is publicly accessible.
 
